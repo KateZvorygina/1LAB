@@ -12,7 +12,7 @@ print('what is your name?')
 username = input()
 if username.isalpha() == False or " " in username:
     print("error! only letters allowed.")
-print('What is your age?')
+print('What your age?')
 userage = int(input())
 if userage <= 0:
     print('enter your real age.')
